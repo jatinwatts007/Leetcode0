@@ -1,10 +1,10 @@
 class Solution {
 public:
-    bool canThreePartsEqualSum(vector<int>& arr) {
+    bool canThreePartsEqualSum(vector<int>& a) {
         int all=0;
-        for(int i=0;i<arr.size();i++)
+        for(int i=0;i<a.size();i++)
         {
-            all+=arr[i];
+            all+=a[i];
         }
         if(all%3!=0) return false;
         int sum1=0;
