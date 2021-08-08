@@ -1,6 +1,4 @@
-class Solution {
-public:
-    int lengthOfLongestSubstring(string s) {
+int lengthOfLongestSubstring(string s) {
         string s1="";
         int arr[127]={0};
         int i=0;
@@ -35,4 +33,4 @@ public:
 
         return s1.length();
     }
-};
+
