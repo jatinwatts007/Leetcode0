@@ -1,6 +1,5 @@
-class Solution {
+
     int ans=0;
-public:
     void helper(int size,vector<bool> &v1,int x)
     {
         if(size==v1.size()-1)
@@ -27,4 +26,4 @@ public:
         return ans;
         
     }
-};
+
