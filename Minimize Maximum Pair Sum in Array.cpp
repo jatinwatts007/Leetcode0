@@ -1,5 +1,4 @@
-class Solution {
-public:
+
     int minPairSum(vector<int>& nums) {
         sort(nums.begin(),nums.end());
         int sum=INT_MIN;
@@ -13,4 +12,4 @@ public:
         }
         return sum;
     }
-};
+
