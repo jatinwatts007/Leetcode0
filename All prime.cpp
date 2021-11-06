@@ -11,4 +11,4 @@ int main(){
       for(int j=i*i;j<=max;j+=i) is_prime[j]=0;
     }
   }
-}
+};
