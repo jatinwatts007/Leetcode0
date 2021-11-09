@@ -11,7 +11,6 @@ public:
         for(int i=0;i<26;i++){
             if(v[i]%2==1) odd++;
         }
-        //cout<<odd<<" ";
         if(k<odd) return false;
         return true;
     }
