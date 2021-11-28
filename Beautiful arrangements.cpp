@@ -1,5 +1,5 @@
 
-    int ans=0;
+    int ans=0
     void helper(int size,vector<bool> &v1,int x)
     {
         if(size==v1.size()-1)
